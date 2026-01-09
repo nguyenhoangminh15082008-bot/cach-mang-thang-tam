@@ -1,0 +1,26 @@
+.museum-video{
+    max-width:1100px;
+    margin:120px auto;
+    padding: 0 30px;
+    text-align:center;
+}
+
+/* MAKE VIDEO BIGGER SAFELY */
+.museum-video .video-container{
+    max-width:900px;   /* 🔥 INCREASE SIZE HERE */
+    margin:0 auto;
+}
+
+.museum-video video{
+    width:100%;        /* ✅ ALWAYS 100% */
+    height:auto;
+    display:block;
+}
+
+/* caption */
+.video-caption{
+    margin-top:16px;
+    font-size:15px;
+    color:#bdbdbd;
+    font-style:italic;
+}
