@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Bảo tàng số | Cách mạng Tháng Tám 1945</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
 
 <!-- Font học thuật -->
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -283,28 +284,25 @@ mở đầu kỷ nguyên độc lập – tự do của dân tộc Việt Nam.
 </section>
 
 <!-- ================== VIDEO ================== -->
-<section class="museum-video">
-  <h2 class="section-title">Video tư liệu lịch sử</h2>
+<section class="museum-video" id="video">
+  <h2 class="section-title reveal">Video tư liệu lịch sử</h2>
 
-  <div class="video-fallback">
-    <img 
-      src="https://img.youtube.com/vi/YkZqgaCWkMs/hqdefault.jpg" 
-      alt="Tư liệu Cách mạng Tháng Tám 1945">
-
-    <div class="video-overlay">
-      <a 
-        href="https://www.youtube.com/watch?v=YkZqgaCWkMs" 
-        target="_blank"
-        aria-label="Xem video trên YouTube">
-        ▶ Xem tư liệu
-      </a>
-    </div>
+  <div class="video-container reveal" style="max-width:560px;margin:0 auto;">
+    <video
+      controls
+      preload="metadata"
+      poster="video-poster.jpg"
+      style="width:140%;height:auto;display:block;">
+      
+      <source src="Cách_mạng_Tháng_Tám.mp4" type="video/mp4">
+    </video>
   </div>
 
   <p class="video-caption">
     Tư liệu lịch sử về Cách mạng Tháng Tám năm 1945 – phục vụ học tập và nghiên cứu
   </p>
 </section>
+
 
 
 
@@ -333,4 +331,3 @@ window.addEventListener('scroll',()=>{
 
 </body>
 </html>
-
